@@ -1,7 +1,7 @@
 {
     "presets":[
         [ "@babel/preset-react" ],
-        [ "@babel/preset-env", { "targets": { "browsers": [ "defaults" ] } } ]
+        [ "@babel/preset-env", { "targets": { "browsers": [ "defaults" ], "uglify": true } } ]
     ],
     "plugins": [ "transform-class-properties" ]
 }

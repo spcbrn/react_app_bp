@@ -32,7 +32,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -f dist/bundle.js",
+    "clean": "rm -f dist/bundle.js && rm -f dist/bundle.js.map",
     "dev": "set NODE_ENV=development && webpack-dev-server --open --config webpack.dev.js",
     "build:dev": "set NODE_ENV=development && webpack --config webpack.dev.js -d",
     "build:prod": "set NODE_ENV=production && webpack --config webpack.prod.js -p"
