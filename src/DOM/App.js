@@ -5,10 +5,15 @@ class App extends Component {
         super(props)
     }
 
+    testMethod = () => {
+        console.log('This is test...');
+    }
+
     render() {
         return (
             <main>
                 <h1>Hello world...</h1>
+                <button onClick={this.testMethod}>Test</button>
             </main>
         )
     }
