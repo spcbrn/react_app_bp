@@ -1,0 +1,25 @@
+
+# dependencies
+/node_modules
+
+# environmental variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# testing
+/coverage
+
+# production
+/dist_build
+/dist/bundle.js
+/dist/bundle.js.map
+
+# misc
+.DS_Store
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
